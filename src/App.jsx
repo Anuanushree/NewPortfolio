@@ -7,21 +7,26 @@ import Skills from './components/Skills';
 import Project from './components/Project';
 import Contact from './components/Contact'
 import projectdata from './components/projectHook';
+import { Navbar } from 'react-bootstrap'
+import FullPage from './components/fullPage';
+import Menubar from './nav/nav';
+// import Navbar from './nav/nav'
 
 function App() {
 
   return (
     <div >
-      <Router>
-        <Navigater />
+      {/* <Router>
+        <Menubar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<FullPage />} />
           <Route path='/about' element={<About />} />
           <Route path='/skills' element={<Skills />} />
-          <Route path='/project' element={<Project projectdata={projectdata} />} />
+          <Route path='/project' element={<Project/>} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-      </Router>
+      </Router> */}
+      <FullPage />
     </div>
   )
 }

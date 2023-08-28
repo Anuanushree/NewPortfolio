@@ -1,43 +1,75 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import { Fade } from 'react-reveal';
+import projectdata from './projectHook';
 
-function Card({ data }) {
-
-    console.log(data.icon)
+function Project() {
     return (
         <>
-            <div className="card col-lg-3 col-md-5 col-sm-9 project-card " >
-                <img className="img-fluid project-img" src={data.img} alt="image loading..." />                <div className="card-body">
-                    <h5 className="card-title" id="h5">{data.title}</h5>
-                    <p className="card-text project-des">{data.description}</p>
+            <div className='project-body'>
+                <h2 className='project-heading mb-3'>Projects</h2>
+                <div className='row project '>
+
                     {
-                        data.icon.map(datas => (
-                            <img className='project-icon' src={datas} />
+                        projectdata.map(data => (
+                            data.backend ? (
+                                <Fade up key={data.id}>
+                                    <div className="card col-lg-3 col-md-5 col-sm-9 project-card " >
+                                        <img className="img-fluid project-img" src={data.img} alt="image loading..." />                <div className="card-body">
+                                            <h5 className="card-title" id="h5">{data.title}</h5>
+                                            <p className="card-text project-des">{data.description}</p>
+                                            {
+                                                data.icon.map(datas => (
+                                                    <img className='project-icon' src={datas} />
+                                                ))
+                                            }
+                                        </div>
+
+                                        <div className="card-footer">
+                                            <div>
+                                                <a className='project-view' href={data.url}> View</a>
+                                            </div>
+                                            <div>
+                                                <a className='project-view' href={data.url}>Front-end</a>
+                                                <a className='project-view' href={data.url}>back-end</a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </Fade>
+                            ) : (
+                                <Fade up key={data.id}>
+                                    <div className="card col-lg-3 col-md-5 col-sm-9 project-card " >
+                                        <img className="img-fluid project-img" src={data.img} alt="image loading..." />                <div className="card-body">
+                                            <h5 className="card-title" id="h5">{data.title}</h5>
+                                            <p className="card-text project-des">{data.description}</p>
+                                            {
+                                                data.icon.map(datas => (
+                                                    <img className='project-icon' src={datas} />
+                                                ))
+                                            }
+                                        </div>
+
+                                        <div className="card-footer">
+                                            <div>
+                                                <a className='project-view' href={data.url}> View</a>
+                                            </div>
+                                            <div>
+                                                <a className='project-view' href={data.url}>Front-end</a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </Fade>
+                            )
                         ))
                     }
                 </div>
-                <div className="card-footer">
-                    <a className='project-view' href={data.url}> View</a>
-                    {/* <div>
-                    <a>Front end code</a>
-                  </div> */}
-                </div>
             </div>
         </>
-    )
-}
-function Project({ projectdata }) {
-    return (
-        <div className='project-body'>
-            <div className='row project '>
-                {
-                    projectdata.map(data => (
-                        <Card data={data} />
-                    ))
-                }
-            </div>
-        </div>
     )
 }
 
