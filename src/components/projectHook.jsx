@@ -12,7 +12,17 @@ import mongodb from '../assets/skills/mongodb.png';
 import mysql from '../assets/skills/mysql.png';
 import expressJs from '../assets/skills/expressJs.png';
 import bootstrap from '../assets/skills/bootstrap.jpeg';
+import petty from '../assets/pettyCash.png'
 const projectdata = [
+    {
+        img: [petty],
+        "title": "PettyCash Manager",
+        "description": "In this project implement user authentication and authorization  and the user income and expenditure  are stored in ledger",
+        "url": "https://friendly-torrone-b17166.netlify.app/",
+        "front-end": "https://github.com/Anuanushree/pettycash-frontend",
+        "backend": "https://github.com/Anuanushree/pettyCash-backend",
+        "icon": [html, css, react, mongodb, nodejs]
+    },
     {
         "img": [pokemon],
         "title": "pokemon",
@@ -21,13 +31,7 @@ const projectdata = [
         "front-end": "	https://github.com/Anuanushree/webcode",
         "icon": [html, css, js, bootstrap]
     },
-    // {
-    //     "img": "../assets/project/socialMedia.jpeg",
-    //     "title": "social media",
-    //     "description": "hloo",
-    //     "url": "http://google.com",
-    //     "icon": [html, css, react]
-    // },
+ 
     {
         img: [admin],
         "title": "Admin user",
