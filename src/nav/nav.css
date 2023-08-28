@@ -7,6 +7,7 @@
     position: relative;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .link-menu:hover {
@@ -20,10 +21,10 @@
   
 } */
 
-.nav-header .active {
+/* .nav-header .active {
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
-}
+} */
 
 .navigation {
     height: 80px;

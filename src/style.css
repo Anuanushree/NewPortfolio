@@ -265,13 +265,9 @@
     top: 100px;
     padding: 50px;
     color: white;
-    background-color: blue;
-    transition-duration: 1s;
-    transition-delay: 0.5s;
-    animation-name: rotate;
-    animation-duration: 0.4s;
-    animation-delay: 0s;
-
+    background-color: #000;
+    font-size: medium;
+    font-size: larger;
 }
 
 .contact-icon {
@@ -279,11 +275,11 @@
     color: blue;
 }
 
-.contact-p {
+/* .contact-p {
     font-size: 3vw;
     font: Proxima Nova;
 
-}
+} */
 
 /* typing decoration */
 
@@ -353,6 +349,7 @@
     margin-right: 120px;
     padding: 10px 0 30px
 }
+
 section.resume-section .resume-section-content {
     width: 100%;
 }

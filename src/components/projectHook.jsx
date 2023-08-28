@@ -17,7 +17,7 @@ const projectdata = [
     {
         img: [petty],
         "title": "PettyCash Manager",
-        "description": "In this project implement user authentication and authorization  and the user income and expenditure  are stored in ledger",
+        "description": "It usefull for the user known the savings and expenditure",
         "url": "https://friendly-torrone-b17166.netlify.app/",
         "front-end": "https://github.com/Anuanushree/pettycash-frontend",
         "backend": "https://github.com/Anuanushree/pettyCash-backend",
@@ -54,7 +54,7 @@ const projectdata = [
         "description": "simple crud in library management",
         "url": " https://dapper-taiyaki-13d780.netlify.app",
         "front-end": " https://github.com/anuanushree/react-project/tree/library",
-        "icon": [html, css, react.js]
+        "icon": [html, css, react,js]
     },
     {
         "img": [poster],

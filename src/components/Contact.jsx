@@ -6,7 +6,7 @@ function Contact() {
         <div className='contact-body'>
             <h2 className='project-heading mb-3'>Contact</h2>
             <Fade left>
-                <div className='card contact'>
+                <div className='card contact bg-primary'>
                     <h2>Address:</h2>
                     <p className='contact-p'>No:16/62 , Perumal Kovil 1st Street ,</p>
                     <p className='contact-p'>Nerkundram,Chennai- 600107 .</p>
