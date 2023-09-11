@@ -12,7 +12,9 @@ import mongodb from '../assets/skills/mongodb.png';
 import mysql from '../assets/skills/mysql.png';
 import expressJs from '../assets/skills/expressJs.png';
 import bootstrap from '../assets/skills/bootstrap.jpeg';
-import petty from '../assets/pettyCash.png'
+import petty from '../assets/pettyCash.png';
+import hallbooking from '../assets/project/hallbooking.png'
+
 const projectdata = [
     {
         img: [petty],
@@ -24,6 +26,15 @@ const projectdata = [
         "icon": [html, css, react, mongodb, nodejs]
     },
     {
+        img: [hallbooking],
+        "title": "Hall booking",
+        "description": "A Hall booking system developed the backend with the help of Node.JS and Express.Js",
+        "url": "https://extraordinary-starburst-aecb1c.netlify.app",
+        "front-end": "https://github.com/Anuanushree/hallbookingfrontend",
+        "backend": "https://github.com/Anuanushree/hallBooking-backend",
+        "icon": [html, css, react, mongodb, nodejs]
+    },
+    {
         "img": [pokemon],
         "title": "pokemon",
         "description": "each pokemon abilities and moves and weight are displayed with the help of pokeapi",
@@ -31,7 +42,7 @@ const projectdata = [
         "front-end": "	https://github.com/Anuanushree/webcode",
         "icon": [html, css, js, bootstrap]
     },
- 
+
     {
         img: [admin],
         "title": "Admin user",
@@ -54,7 +65,7 @@ const projectdata = [
         "description": "simple crud in library management",
         "url": " https://dapper-taiyaki-13d780.netlify.app",
         "front-end": " https://github.com/anuanushree/react-project/tree/library",
-        "icon": [html, css, react,js]
+        "icon": [html, css, react, js]
     },
     {
         "img": [poster],
