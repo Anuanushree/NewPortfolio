@@ -25,8 +25,8 @@ function Home() {
                     </Fade>
                     <Fade left>
                         <div className='d-flex justify-content-center'>
-                            <a href="https://www.canva.com/design/DAFsy5iN8kQ/g4ZF3_oEmqDZu5XysvteTA/view?utm_content=DAFsy5iN8kQ&utm_campaign=celebratory_first_publish&utm_medium=link&utm_source=celebratory_first_publish">
-                                <button className="theme-fill-btn "> Download CV </button>
+                            <a href="https://drive.google.com/file/d/1l4dovHMEmTwMh4r7mg1zomeDNudOVhpP/view?usp=drivesdk">
+                                <button className="theme-fill-btn "> View CV </button>
                             </a>
                         </div>
                     </Fade>

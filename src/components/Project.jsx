@@ -31,8 +31,8 @@ function Project() {
                                                 <a className='project-view' href={data.url}> View</a>
                                             </div>
                                             <div>
-                                                <a className='project-view' href={data.url}>Front-end</a>
-                                                <a className='project-view' href={data.url}>back-end</a>
+                                                <a className='project-view' href={data.frontend}>Front-end</a>
+                                                <a className='project-view' href={data.backend}>back-end</a>
                                             </div>
                                         </div>
 
@@ -57,7 +57,7 @@ function Project() {
                                                 <a className='project-view' href={data.url}> View</a>
                                             </div>
                                             <div>
-                                                <a className='project-view' href={data.url}>Front-end</a>
+                                                <a className='project-view' href={data.frontend}>Front-end</a>
                                             </div>
                                         </div>
 
