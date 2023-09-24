@@ -28,11 +28,11 @@ function Project() {
 
                                         <div className="card-footer">
                                             <div>
-                                                <a className='project-view' href={data.url}> View</a>
+                                                <a className='project-view' href={data.url} target='_blank'> View</a>
                                             </div>
                                             <div>
-                                                <a className='project-view' href={data.frontend}>Front-end</a>
-                                                <a className='project-view' href={data.backend}>back-end</a>
+                                                <a className='project-view' href={data.frontend} target='_blank'>Front-end</a>
+                                                <a className='project-view' href={data.backend} target='_blank'>back-end</a>
                                             </div>
                                         </div>
 
@@ -54,10 +54,10 @@ function Project() {
 
                                         <div className="card-footer">
                                             <div>
-                                                <a className='project-view' href={data.url}> View</a>
+                                                <a className='project-view' href={data.url} target='_blank'> View</a>
                                             </div>
                                             <div>
-                                                <a className='project-view' href={data.frontend}>Front-end</a>
+                                                    <a className='project-view' href={data.frontend} target='_blank'>Front-end</a>
                                             </div>
                                         </div>
 

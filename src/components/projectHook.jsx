@@ -13,7 +13,8 @@ import mysql from '../assets/skills/mysql.png';
 import expressJs from '../assets/skills/expressJs.png';
 import bootstrap from '../assets/skills/bootstrap.jpeg';
 import petty from '../assets/pettyCash.png';
-import hallbooking from '../assets/project/hallbooking.png'
+import hallbooking from '../assets/project/hallbooking.png';
+import railwayReservation from '../assets/project/railwayReservation.png'
 
 const projectdata = [
     {
@@ -23,7 +24,7 @@ const projectdata = [
         "url": "https://friendly-torrone-b17166.netlify.app/",
         "frontend": "https://github.com/Anuanushree/pettycash-frontend",
         "backend": "https://github.com/Anuanushree/pettyCash-backend",
-        "icon": [html, css, react, mongodb, nodejs,bootstrap]
+        "icon": [html, css, react, mongodb, nodejs, bootstrap]
     },
     {
         img: [hallbooking],
@@ -32,7 +33,16 @@ const projectdata = [
         "url": "https://extraordinary-starburst-aecb1c.netlify.app",
         "frontend": "https://github.com/Anuanushree/hallbookingfrontend",
         "backend": "https://github.com/Anuanushree/hallBooking-backend",
-        "icon": [html, css, react, mongodb, nodejs,bootstrap]
+        "icon": [html, css, react, mongodb, nodejs, bootstrap]
+    },
+    {
+        img: [railwayReservation],
+        "title": "Railway ticket reservation",
+        "description": "A ticket booking system developed the backend with the help of Node.JS and Express.Js",
+        "url": "https://extraordinary-starburst-aecb1c.netlify.app",
+        "frontend": "https://github.com/Anuanushree/railwayResevation-FE",
+        "backend": "https://github.com/Anuanushree/hallBooking-backend",
+        "icon": [html, css, react, mongodb, nodejs, bootstrap]
     },
     {
         "img": [pokemon],

@@ -38,7 +38,7 @@ const Menubar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto nav nav-header">
                         <Link
-                            to="home"
+                            to="/"
                             activeClass="active"
                             className="link-menu"
                             smooth={true}

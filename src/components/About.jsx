@@ -64,7 +64,7 @@ const About = () => {
                     <div>
                       <h2>MERN full stack</h2>
                       <p>Guvi</p>
-                      <a href="https://www.guvi.in/certificate?id=XJtE063N6D7295W331&download=true">
+                      <a  target="_blank" href="https://www.guvi.in/certificate?id=XJtE063N6D7295W331&download=true">
                         <h4>View Certification</h4></a>
 
                     </div>
