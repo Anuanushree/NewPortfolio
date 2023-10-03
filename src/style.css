@@ -216,6 +216,8 @@
     margin: 10px;
     align-content: center;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .project-card {
@@ -258,16 +260,20 @@
 
 .contact-body {
     background-color: black;
+
 }
 
 .contact {
-    width: 70%;
+    width: 80%;
     top: 100px;
     padding: 50px;
     color: white;
-    background-color: #000;
-    font-size: medium;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
     font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contact-icon {

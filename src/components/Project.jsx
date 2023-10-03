@@ -9,13 +9,13 @@ function Project() {
         <>
             <div className='project-body'>
                 <h2 className='project-heading mb-3'>Projects</h2>
-                <div className='row project '>
+                <div className='row project container-fluid '>
 
                     {
                         projectdata.map(data => (
                             data.backend ? (
                                 <Fade up key={data.id}>
-                                    <div className="card col-lg-3 col-md-5 col-sm-9 project-card " >
+                                    <div className="card col-lg-3 col-md-5 col-sm-9 text-center project-card " >
                                         <img className="img-fluid project-img" src={data.img} alt="image loading..." />                <div className="card-body">
                                             <h5 className="card-title" id="h5">{data.title}</h5>
                                             <p className="card-text project-des">{data.description}</p>
@@ -57,7 +57,7 @@ function Project() {
                                                 <a className='project-view' href={data.url} target='_blank'> View</a>
                                             </div>
                                             <div>
-                                                    <a className='project-view' href={data.frontend} target='_blank'>Front-end</a>
+                                                <a className='project-view' href={data.frontend} target='_blank'>Front-end</a>
                                             </div>
                                         </div>
 
