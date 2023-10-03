@@ -17,7 +17,7 @@ const About = () => {
                 <h2 className="t-color">About Me</h2>
               </Fade>
               <Fade left>
-                <h6 className="text-job">Front-end Developer</h6>
+                <h6 className="text-job">Full Stack Developer</h6>
               </Fade>
             </div>
             <div className="about-text">
