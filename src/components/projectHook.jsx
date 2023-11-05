@@ -39,7 +39,7 @@ const projectdata = [
         img: [railwayReservation],
         "title": "Railway ticket reservation",
         "description": "A ticket booking system developed the backend with the help of Node.JS and Express.Js",
-        "url": "https://extraordinary-starburst-aecb1c.netlify.app",
+        "url": "https://silly-kringle-51092c.netlify.app/",
         "frontend": "https://github.com/Anuanushree/railwayResevation-FE",
         "backend": "https://github.com/Anuanushree/hallBooking-backend",
         "icon": [html, css, react, mongodb, nodejs, bootstrap]
