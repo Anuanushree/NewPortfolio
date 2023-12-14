@@ -25,7 +25,7 @@ function Home() {
                     </Fade>
                     <Fade left>
                         <div className='d-flex justify-content-center'>
-                            <a href="https://drive.google.com/file/d/1Red9nhaQDugW21bmaIx_a3pC58ygTY_S/view?usp=drivesdk" target='_blank'>
+                            <a href="https://drive.google.com/file/d/1cpjDgUW6mh9L8XNUHV1gquMCIlSvYX5r/view" target='_blank'>
                                 <button className="theme-fill-btn "> View CV </button>
                             </a>
                         </div>
